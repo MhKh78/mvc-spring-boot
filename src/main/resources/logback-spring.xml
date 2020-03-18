@@ -1,0 +1,9 @@
+<!-- -spring needed so spring take control of logging and this file-->
+<configuration>
+
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+    <logger name="academy.learnprogramming" level="DEBUG" />
+    <logger name="org.springframework" level="INFO" />
+
+</configuration>
